@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 20px;
+    padding: 20px 50px 0 50px;
     background-color: rgb(19, 30, 48);
 }
 .links{
@@ -30,4 +30,37 @@
     background-color: rgb(19, 30, 48);
     padding: 100px 15% 0px 15%;
     color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+.one-text{
+    font-size: small;
+    color: rgb(198, 198, 198);
+    font-weight: 200;
+}
+.one-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+#coffee-img{
+    width:400px;
+}
+h1{
+    font-weight: bold;
+}
+button{
+    max-width: 100px;
+    color: white;
+    padding: 5px 20px;
+    background-color: blue;
+    border-radius: 5px;
+    border-style: none;
+}
+.button:hover{
+    background-color: lightgray;
+    border: 2px solid blue;
 }
