@@ -1,56 +1,33 @@
 *{
     font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #e5e7eb;
-}
-p{
-    margin: 5px, 0px;
-}
-ul{
-    list-style-type: none
-}
-.one{
-    background-color: #1F2937;
-    font-size: 18px;
-    padding: 10%;
-    padding-top: 0px;
-    padding-bottom: 5%;
     margin: 0px;
 }
 .header{
     display: flex;
-    justify-content: flex-end;
-    gap: 30px;
+    justify-content: space-between;
+    flex-direction: row;
     padding: 20px;
+    background-color: rgb(19, 30, 48);
 }
- .header .logo{
-    justify-self: flex-start;
-    flex: 1;
-    font-size: 25px;
-    font-weight: 900;
- }
-
-.one img{
-    width: 50%;
-}
-.one-content{
+.links{
     display: flex;
-    margin-top: 50px;
-    padding: 20px;
-    gap: 50px;
+    gap: 20px;
+    align-items: center;
 }
-.one-left{
-    margin: 0px;
-    padding: 0px;
+.link{
+    color: lightgray;
+    font-weight: 600;
+    text-decoration: none;
 }
-.one h1{
-    font-size: 48px;
-    font-weight: 1000;
-    margin: 0px;
+.logo{
+    color: lightgray;
+    font-size: x-large;
+    font-weight: 900;
+    border: 5px solid lightgray;
+    padding: 0px 5px;
 }
-
-button{
-    border-radius: 8px;
-    background-color: #3882f6;
-    width: 150px;
-    height: 35px;
+.one{
+    background-color: rgb(19, 30, 48);
+    padding: 100px 15% 0px 15%;
+    color: lightgray;
 }
