@@ -63,6 +63,23 @@
     padding: 20px;
     text-align: center;
 }
+.three{
+    background-color: rgb(204, 209, 211);
+    padding: 100px 20%;
+    margin-top: 100px;
+}
+.quote{
+    font-weight: 300;
+    font-size: 30px;
+    color: darkslategrey;
+    font-style: italic;
+}
+.quote-signature{
+    text-align: right;
+    color: rgb(31, 52, 52);
+    font-size: 20px;
+    font-weight: bold;
+}
 .coffee-pic{
     width: 150px;
     height: 150px;
